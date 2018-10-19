@@ -1,7 +1,0 @@
-<div [formGroup]="parts" class="form-group">
-  <input name="hh" formControlName="hh" size="2" maxlength="2" type="text" [ngClass]="{'red-border-class': hourInvalid}"
-         [(ngModel)]="hour" (change)="validateHour(hour,$event)"  (keypress)="validateKey($event)" >
-  <span>:</span>
-  <input name="mm" formControlName="mm" size="2" maxlength="2" type="text" [ngClass]="{'red-border-class': minsInvalid}"
-         [(ngModel)]="mins" (change)="validateMins(mins,$event)"  (keypress)="validateKey($event)">
-</div>
