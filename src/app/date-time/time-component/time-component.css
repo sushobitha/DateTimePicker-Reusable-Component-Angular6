@@ -1,0 +1,21 @@
+input {
+  border: none;
+  background: none;
+  padding: 0;
+  outline: none;
+  font: inherit;
+  text-align: center;
+}
+
+/*span {
+  opacity: 0;
+  transition: opacity 200ms;
+}*/
+.red-border-class
+{
+  border-bottom:1px solid #f00;
+}
+
+div{
+  display: inline;
+}
